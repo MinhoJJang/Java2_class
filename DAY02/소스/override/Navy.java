@@ -1,0 +1,20 @@
+package override;
+
+public class Navy extends Unit {
+
+	public Navy(String name) {
+		super(name);
+	}
+	
+	@Override
+	public void attack() {
+		super.attack();
+		System.out.println(this.getName() + " >> æÓ∑⁄ πﬂªÁ!");
+		System.out.println(this.getName() + " >> ¡ˆªÛ ªÛ∑˙");
+	}
+	
+	public void nucleus() {
+		System.out.println(this.getName() + " >> «ŸπÃªÁ¿œ");
+	}
+
+}
